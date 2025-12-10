@@ -1,0 +1,86 @@
+prevent updload 
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Google Service Account credentials
+*.json
+credentials.json
+gtin-search-*.json
+
+# API Keys and secrets
+*_key.txt
+*_token.txt
+*.pem
+*.key
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environment
+venv/
+env/
+ENV/
+.venv
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Temporary files
+*.tmp
+*.temp
+tmp/
+temp/
+*.log
+
+# ngrok
+ngrok
+ngrok.exe
+ngrok.yml
+
+# Uploaded images
+uploads/
+temp_images/
+*.jpg
+*.jpeg
+*.png
+*.gif
+!example.jpg
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# pytest
+.pytest_cache/
+.coverage
+htmlcov/
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride

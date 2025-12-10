@@ -1,0 +1,7 @@
+fastapi==0.124.0
+fastapi_poe==0.0.81
+google_api_python_client==2.175.0
+nest_asyncio==1.6.0
+protobuf==6.33.2
+python-dotenv==1.2.1
+uvicorn==0.38.0
